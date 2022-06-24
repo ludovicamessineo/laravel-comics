@@ -1,0 +1,22 @@
+header {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        width: 80px;
+        margin: 2rem;
+    }
+
+    .menu > ul {
+        display: flex;
+    }
+
+    li {
+        padding: .5rem;
+        text-transform: uppercase;
+    }
+
+}
