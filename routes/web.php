@@ -19,3 +19,7 @@ Route::get('/', function () {
     $data = ['comic_array' => $comic_array];
     return view('home', $data);
 })->name('homepage');
+
+Route::get('/single-comic', function() {
+    return view('single-comic');
+})->name('single-comic');
